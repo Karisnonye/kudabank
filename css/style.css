@@ -1,0 +1,143 @@
+@import url('../css/fonts.css');
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-color: var(--whiteAlt);
+    
+}
+
+
+:root{
+    --blackColor: #000;
+    --textColor: #979797;
+    --whiteColor: #fff;
+    --whiteAlt: #fff;
+    --offWhite: #f9f9f9;
+    --offWhiteTrans: rgba(219,220,224,0.3);
+    --borderOff: rgba(219,220,224,0.5);
+    --offText: rgba(0,0,0,0.5);
+    --bgOffset: #f4f4f4;
+    --placeHolder: #979797;
+    --offBlue: #eff1ff;
+    --boxShadow: rgba(64,25,109,0.07);
+    --offBlueTran: rgba(223,227,255,0.3);
+    --primaryAlt: #40196d;
+    --gray: #cacaca;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--primaryAlt);
+}
+
+p{
+    font-size: smaller;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    font-size: medium;
+    border-bottom: 1px solid rgb(247, 236, 243);
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    
+    
+    
+}
+
+nav{
+    border-bottom: 2px solid rgba(64,25,109,0.07);
+    box-shadow: rgba(64,25,109,0.07);
+    
+}
+
+
+.img{
+    margin: 20px  50px;
+    
+
+    
+}
+
+
+
+#mint{
+    color: rgb(134, 129, 129);
+    position: absolute;
+    right: 250px;
+    top: 30px;
+    cursor: pointer;
+}
+
+
+
+
+.cin{
+    position: absolute;
+    right: 70px;
+    background-color: var(--boxShadow);
+    top: 15px;
+    border: 1px solid var(--primaryAlt);
+    border-radius: 10px;
+    padding: 12px 15px;
+}
+
+.mine{
+    margin: 60px;
+    
+    
+}
+
+.hin{
+    border: 1px solid var(--boxShadow);
+    border-radius: 5px;
+    background-color: rgb(220, 220, 243);
+    font-size: 15px;
+    color: var(--primaryAlt);
+    width: 370px;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+}
+
+.bit{
+    width: 370px;
+    height: 435px;
+    border: 2px solid var(--boxShadow);
+    border-radius: 5px;
+    padding: 30px;
+
+
+}
+
+.bid{
+    padding: 20px;
+    font-size: smaller;
+    color: var(--textColor);
+}
+
+.login{
+    position: absolute;
+    top: 130px;
+    right: 120px;
+}
+
+form i{
+   position: absolute;
+}
+
+.btn{
+    background-color: rgb(119, 56, 138);
+    border-radius: 10px;
+    color: white;
+    padding: 15px 45px;
+    border-style: none;
+    cursor: pointer;
+}
